@@ -1,0 +1,12 @@
+{
+	"name": "sag",
+	"version": "0.0.0",
+	"authors": [
+		"Sofiya Shrayber"
+		],
+	"description": "sah",
+	"license": "ISC",
+	"devDependencies": {
+		"neat": ">=1.7.2"
+	}
+}

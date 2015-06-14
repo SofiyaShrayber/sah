@@ -1,0 +1,36 @@
+<h2>{{ footer.section-1.header }}</h2>
+
+{{#each footer.section-1.links}}
+	<a href='{{ href }}'>
+		{{ label }}
+	</a>
+{{/each}}
+
+<h2>{{ footer.section-2.header }}</h2>
+
+{{#each footer.section-2.links}}
+	<a href='{{ href }}'>
+		{{ label }}
+	</a>
+{{/each}}
+
+<h2>{{ footer.section-3.header }}</h2>
+
+{{!-- Does this need to be an each statement --}}
+
+{{#each footer.section-3.body}}
+	<div>{{ copy }}</div>
+		<a href='{{ href }}'> {{ label }}
+	</a>
+{{/each}}
+
+<h2>{{ footer.section-4.header }}</h2>
+
+
+<div>{{ footer.section-4.body }}</div>
+
+{{#each footer.nav}}
+	<a href='{{ href }}'>
+		{{ label }}
+	</a>
+{{/each}}

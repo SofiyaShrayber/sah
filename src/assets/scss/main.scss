@@ -1,0 +1,23 @@
+/*
+	
+MAIN
+	
+	*/
+
+// dependencies
+@import "../../../libs/bourbon/app/assets/stylesheets/_bourbon";
+@import "../../../libs/neat/app/assets/stylesheets/_neat";
+
+// core
+
+@import "_normalize";
+@import "_base";
+@import "_grid";
+@import "_fonts";
+@import "_variables";
+
+@import "_header";
+// @import "_type";
+
+//t o be removed before production
+@import "_temp";

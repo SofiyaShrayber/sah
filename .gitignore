@@ -1,0 +1,9 @@
+build
+libs
+node_modules
+npm-debug.log
+.sass-cache
+
+src/assets/scss/_temp.scss
+
+notes.txt
